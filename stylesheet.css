@@ -1,0 +1,343 @@
+body {
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: white;
+}
+
+div.logo {
+  width: 100px;
+  height: 100px;
+  padding-top: 15px;
+  z-index: 100;
+}
+
+div.title {
+  color: grey;
+  border: none;
+  width: 100%;
+  height: 125px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  position: fixed;
+  background-image: url("https://jacupsandbox.files.wordpress.com/2021/11/ezgif-3-dbc3e464d836.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.title2 {
+  color: grey;
+  border: none;
+  width: 100%;
+  height: 125px;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+  position: fixed;
+  background-color: transparent;
+}
+
+div.menu {
+  position: relative;
+  font-family: 'Futura';
+  font-size: 16px;
+  background-color: none;
+  text-align: center;
+  color: white;
+  width: 300px;
+  height: 22px;
+  /*centers it*/
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 25px;
+  /*round corners*/
+  border-radius: 25px;
+  padding: 10px;
+  border: solid;
+  border-color: white;
+  z-index: 100;
+}
+
+div.about {
+  position: relative;
+  font-family: 'Futura';
+  color: black;
+  background-color: white;
+  width: 250px;
+  font-size: 15px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 118px;
+  top: 45px;
+  border-radius: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  flex-flow: column;
+}
+
+div.contact {
+  position: relative;
+  font-family: 'Futura';
+  color: black;
+  background-color: white;
+  width: 200px;
+  height: 100px;
+  font-size: 15px;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 118px;
+  top: 45px;
+  border-radius: 25px;
+  padding: 20px;
+  border: solid;
+  border-color: white;
+}
+
+div.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  margin-top: 125px;
+  background-color: white;
+  z-index: -200;
+  margin-left: 0px;
+  padding: 0px;
+  left: 0;
+  right: 0;
+  justify-content: space-between;
+}
+
+div.item1 {
+    margin-left: 25px;
+    font-family: 'Futura';
+    font-style: italic;
+    font-size: 22px;
+    background-color: white;
+    text-align: left;
+    color: grey;
+    /*centers it*/
+    padding: 20px;
+    border: none;
+    border-color: none;
+    z-index: 20;
+    min-width: 225px;
+    max-width: 225px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+div.item2 {
+  margin-top: 75px;
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+}
+
+
+mark.text {
+  font-family: 'Futura';
+  font-style: normal;
+  font-size: 11px;
+  background-color: transparent;
+  width: inherit;
+
+}
+
+
+mark.one {
+  color: #7F5DFF;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+mark.current {
+  color: white;
+  background-color: transparent;
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:link.title {
+  text-decoration: none;
+  color: white;
+}
+
+a:link.project {
+  color: grey;
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited.title {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited.project {
+  color: grey;
+}
+
+a:hover {
+    color: CCCCFF;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+a:hover.title {
+  color: white;
+  font-size: 37.5px;
+}
+
+a:hover.project {
+  color: black;
+  font-size: 25px;
+}
+
+img.two {
+  width: 100;
+  height: 100;
+  left: 20px;
+  top: 45px;
+}
+
+img.portrait {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+    vertical-align: top;
+    padding-right: 7px;
+    padding-bottom: 10px;
+}
+
+img.landscape {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  vertical-align: top;
+  padding-right: 7px;
+  padding-bottom: 10px;
+}
+
+img.poster {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  vertical-align: top;
+  padding-right: 7px;
+  padding-bottom: 10px;
+}
+
+img.profile {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+    vertical-align: top;
+    border-radius: 25px;
+    padding-top: 25px;
+}
+
+img.social {
+  width: 25px;
+  height: 25px;
+}
+
+/* For Mobile */
+@media only screen and (max-width: 600px) {
+
+  div.item1 {
+      max-width: 450px;
+      height: 25px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      column-gap: 10px;
+      margin-top: 50px;
+      font-size: 10px;
+      background-color: white;
+      text-align: center;
+      align-content: center;
+      align-self: center;
+      margin-left: 0px;
+  }
+
+  div.container {
+    display: flex;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: space-between;
+    text-align: center;
+    align-content: center;
+  }
+
+  a:hover.project {
+    color: black;
+    font-size: 12px;
+  }
+
+mark.text {
+  display: none;
+
+}
+
+}
